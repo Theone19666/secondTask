@@ -1,8 +1,12 @@
 body {
     background-image: url(../img/logo.png) 30 30 no-repeat;
     font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    font-style: normal;
+    color: #1F2041;
 }
 .colors {
     padding: 145px 191px 145px 150px;
 }
-@import '../blocks/common.blocks/color/color.scss'
+@import '../blocks/common.blocks/color/color.scss';
+@import '../blocks/common.blocks/type/type.scss'

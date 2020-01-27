@@ -1,0 +1,55 @@
+.type__name {
+    font: {
+        family: 'Montserrat', sans-serif;
+    }
+    color: rgba(31, 32, 65, 0.25);
+    &_h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    &_h2 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+    &_h3 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    &_body {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+.type__description {
+    font-weight: bold;
+    &_h1 {
+        font: {
+            weight: bold;
+            size: 24px;
+        }
+        line-height: 30px;
+    }
+    &_h2 {
+        font: {
+            weight: bold;
+            size: 19px;
+        }
+        line-height: 24px;
+    }
+    &_h3 {
+        font: {
+            weight: bold;
+            size: 12px;
+        }
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    &_body {
+        font: {
+            weight: bold;
+            size: 14px;
+        }
+        line-height: 24px;
+        color: rgba(31, 32, 65, 0.75);
+    }
+}

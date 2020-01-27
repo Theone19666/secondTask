@@ -1,0 +1,4 @@
+mixin  type(type, description)
+    div.type
+        div(class='type__name type__name_'+type)= type.toUpperCase()
+        div.type__description(class='type__description_'+type)= description

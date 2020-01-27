@@ -1,4 +1,8 @@
 extends ../pug/layout.pug
+block head 
+    link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Quicksand&display=swap")
+    link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Montserrat&display=swap")
+    link(rel='stylesheet', href='../../colors.css')
 
 block meta
     title Colors and type
@@ -6,6 +10,14 @@ block meta
 
 block content
     include ../blocks/common.blocks/color/color
-    -var classes = {'dark_shade100': '#1F2041', 'dark_shade75': '#1F2041', 'dark_shade50': '#1F2041', 'dark_shade25': '#1F2041', 'dark_shade5': '#1F2041', 'purple': '#BC9CFF', 'green': '#6FCF97' };
-    each val, className in classes
-       +color(className, val, 'hi')
+    include ../blocks/common.blocks/type/type
+    -var classes = [{'class':'dark_shade100', 'val': '#1F2041',text: 'Dark Shade 100%'},{'class':'dark_shade75', 'val': '#1F2041',text: 'Dark Shade 100%'},{'class':'dark_shade50', 'val': '#1F2041',text: 'Dark Shade 50%'},{'class':'dark_shade25', 'val': '#1F2041',text: 'Dark Shade 25%'},{'class':'dark_shade5', 'val': '#1F2041',text: 'Dark Shade 5%'},{'class':'purple', 'val': '#BC9CFF',text: 'Purple'},{'class':'green', 'val': '#6FCF97',text: 'Green'}];
+    div.colors
+        each item in classes
+            +color(item.class, item.val, item.text)
+
+    -var types = [{'type': 'h1', 'description': 'This one is the sub-section or widget tutle'},{'type': 'h2', 'description': 'Next one is the item title inside widgets'},{'type': 'h3', 'description': 'This is a label or CTA text'},{'type': 'body', 'description': 'This is the body text which is used for most of design, like paragraphs, lists, etc.'}]
+    div.types
+        each item in types
+            +type(item.type, item.description)
+        
