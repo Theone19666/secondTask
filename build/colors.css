@@ -1,5 +1,6 @@
 body {
   background-image: url(2645e4d9a01c411e1d094ebdb0889189.png) 30 30 no-repeat;
+  font-family: "Quicksand", sans-serif;
 }
 
 .colors {
@@ -11,6 +12,10 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 270px;
+}
+.color:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .color__shade {
@@ -40,20 +45,22 @@ body {
   background: #6FCF97;
 }
 
-.color__caption {
-  line-height: 29px;
+.color__text {
+  display: flex;
+  flex-direction: column;
+  width: 159px;
 }
-.color__caption font {
-  family: "Quicksand", sans-serif;
-  style: normal;
-  weight: bold;
-  size: 19px;
+
+.color__caption {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
 }
 
 .color__value {
-  family: "Quicksand", sans-serif;
-  style: normal;
-  size: 19px;
+  font-style: normal;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=colors.css.map*/

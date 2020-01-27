@@ -1,145 +1,63 @@
-<head><link href="../../colors.css" rel="stylesheet"></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module build failed (from ../node_modules/pug-loader/index.js):
-  SyntaxError: Unexpected token (3:44)
-  
-  - acorn.js:2488 Parser.pp$4.raise
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:2488:13
-  
-  - acorn.js:623 Parser.pp.unexpected
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:623:8
-  
-  - acorn.js:1548 Parser.pp$2.parseBindingAtom
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1548:10
-  
-  - acorn.js:1586 Parser.pp$2.parseMaybeDefault
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1586:23
-  
-  - acorn.js:1571 Parser.pp$2.parseBindingList
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1571:25
-  
-  - acorn.js:1144 Parser.pp$1.parseFunctionParams
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1144:22
-  
-  - acorn.js:1131 Parser.pp$1.parseFunction
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1131:8
-  
-  - acorn.js:1999 Parser.pp$3.parseExprAtom
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1999:17
-  
-  - acorn.js:1872 Parser.pp$3.parseExprSubscripts
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1872:19
-  
-  - acorn.js:1849 Parser.pp$3.parseMaybeUnary
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1849:17
-  
-  - acorn.js:1791 Parser.pp$3.parseExprOps
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1791:19
-  
-  - acorn.js:1774 Parser.pp$3.parseMaybeConditional
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1774:19
-  
-  - acorn.js:1750 Parser.pp$3.parseMaybeAssign
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1750:19
-  
-  - acorn.js:1761 Parser.pp$3.parseMaybeAssign
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1761:23
-  
-  - acorn.js:1761 Parser.pp$3.parseMaybeAssign
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1761:23
-  
-  - acorn.js:1722 Parser.pp$3.parseExpression
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:1722:19
-  
-  - acorn.js:777 Parser.pp$1.parseStatement
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:777:45
-  
-  - acorn.js:672 Parser.pp$1.parseTopLevel
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:672:23
-  
-  - acorn.js:529 Parser.parse
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:529:15
-  
-  - acorn.js:3378 Object.parse
-    [secondTask]/[acorn-globals]/[acorn]/dist/acorn.js:3378:37
-  
-  - index.js:22 reallyParse
-    [secondTask]/[acorn-globals]/index.js:22:16
-  
-  - index.js:35 findGlobals
-    [secondTask]/[acorn-globals]/index.js:35:11
-  
-  - index.js:29 addWith
-    [secondTask]/[with]/index.js:29:14
-  
-  - index.js:130 Compiler.compile
-    [secondTask]/[pug-code-gen]/index.js:130:12
-  
-  - index.js:32 generateCode
-    [secondTask]/[pug-code-gen]/index.js:32:39
-  
-  - index.js:175 compileBody
-    [secondTask]/[pug]/lib/index.js:175:12
-  
-  - index.js:290 Object.exports.compileClientWithDependenciesTracked
-    [secondTask]/[pug]/lib/index.js:290:16
-  
-  - index.js:336 Object.exports.compileClient
-    [secondTask]/[pug]/lib/index.js:336:18
-  
-  - index.js:136 run
-    [secondTask]/[pug-loader]/index.js:136:23
-  
-  
-  - SyntaxError: Unexpected token (3:44)
-  
-  - compiler.js:79 
-    [secondTask]/[html-webpack-plugin]/lib/compiler.js:79:16
-  
-  - Compiler.js:343 
-    [secondTask]/[webpack]/lib/Compiler.js:343:11
-  
-  - Compiler.js:681 
-    [secondTask]/[webpack]/lib/Compiler.js:681:15
-  
-  
-  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
-    [secondTask]/[tapable]/lib/Hook.js:154:20
-  
-  - Compiler.js:678 
-    [secondTask]/[webpack]/lib/Compiler.js:678:31
-  
-  
-  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
-    [secondTask]/[tapable]/lib/Hook.js:154:20
-  
-  - Compilation.js:1423 
-    [secondTask]/[webpack]/lib/Compilation.js:1423:35
-  
-  
-  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
-    [secondTask]/[tapable]/lib/Hook.js:154:20
-  
-  - Compilation.js:1414 
-    [secondTask]/[webpack]/lib/Compilation.js:1414:32
-  
-  
-  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
-    [secondTask]/[tapable]/lib/Hook.js:154:20
-  
-  - Compilation.js:1409 
-    [secondTask]/[webpack]/lib/Compilation.js:1409:36
-  
-  
-  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
-    [secondTask]/[tapable]/lib/Hook.js:154:20
-  
-  - Compilation.js:1405 
-    [secondTask]/[webpack]/lib/Compilation.js:1405:32
-  
-  
-  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
-    [secondTask]/[tapable]/lib/Hook.js:154:20
-  
-</pre>
+<!DOCTYPE html>
+<html class="colors" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,width=device-width">
+    <title>Colors and type</title>
+    <meta name="description" content="Colors and type page">
+    <link rel="stylesheet" href="../../colors.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap">
+  <link href="../../colors.css" rel="stylesheet"></head>
+  <body>
+    <noscript>Отключён Javascript. Это печально. </noscript>
+        <div class="color">
+          <div class="color__shade color__shade_dark_shade100"></div>
+          <div class="color__text">
+            <div class="color__caption">#1F2041</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+        <div class="color">
+          <div class="color__shade color__shade_dark_shade75"></div>
+          <div class="color__text">
+            <div class="color__caption">#1F2041</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+        <div class="color">
+          <div class="color__shade color__shade_dark_shade50"></div>
+          <div class="color__text">
+            <div class="color__caption">#1F2041</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+        <div class="color">
+          <div class="color__shade color__shade_dark_shade25"></div>
+          <div class="color__text">
+            <div class="color__caption">#1F2041</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+        <div class="color">
+          <div class="color__shade color__shade_dark_shade5"></div>
+          <div class="color__text">
+            <div class="color__caption">#1F2041</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+        <div class="color">
+          <div class="color__shade color__shade_purple"></div>
+          <div class="color__text">
+            <div class="color__caption">#BC9CFF</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+        <div class="color">
+          <div class="color__shade color__shade_green"></div>
+          <div class="color__text">
+            <div class="color__caption">#6FCF97</div>
+            <div class="color__value">hi</div>
+          </div>
+        </div>
+  </body>
+</html>

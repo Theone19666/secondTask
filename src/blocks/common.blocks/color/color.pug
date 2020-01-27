@@ -1,5 +1,7 @@
-mixin color(class, caption, shade)
+mixin color(classs, caption, shade)
     div.color
         div(class='color__shade color__shade_'+classs)
-        div.color__caption caption
-        div.color__value shade
+        div.color__text
+            div.color__caption= caption
+            div.color__value= shade
+        block

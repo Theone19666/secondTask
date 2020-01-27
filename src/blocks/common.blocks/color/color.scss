@@ -3,6 +3,10 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 270px;
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
 }
 .color__shade {
     width: 70px;
@@ -30,9 +34,13 @@
         background: #6FCF97;
     }
 }
+.color__text {
+    display: flex;
+    flex-direction: column;
+    width: 159px;
+}
 .color__caption {
-    font {
-        family: 'Quicksand', sans-serif;
+    font: {
         style: normal;
         weight: bold;
         size: 19px;
@@ -40,7 +48,8 @@
     line-height: 29px;
 }
 .color__value {
-    family: 'Quicksand', sans-serif;
-    style: normal;
-    size: 19px;
+    font: {
+        style: normal;
+        size: 19px;
+    }
 }
