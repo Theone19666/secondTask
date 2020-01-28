@@ -1,8 +1,18 @@
+.type {
+    display: flex;
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
 .type__name {
     font: {
         family: 'Montserrat', sans-serif;
     }
+    margin-right: 30px;
     color: rgba(31, 32, 65, 0.25);
+    width: 37px;
+    text-align: right;
+    text-transform: uppercase;
     &_h1 {
         font-size: 24px;
         line-height: 29px;
@@ -18,10 +28,12 @@
     &_body {
         font-size: 14px;
         line-height: 24px;
+        text-transform: capitalize;
     }
 }
 .type__description {
     font-weight: bold;
+    max-width: 336px;
     &_h1 {
         font: {
             weight: bold;
@@ -40,6 +52,7 @@
         font: {
             weight: bold;
             size: 12px;
+            family: 'Montserrat';
         }
         line-height: 15px;
         text-transform: uppercase;
@@ -48,6 +61,7 @@
         font: {
             weight: bold;
             size: 14px;
+            family: 'Montserrat';
         }
         line-height: 24px;
         color: rgba(31, 32, 65, 0.75);

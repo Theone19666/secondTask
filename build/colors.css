@@ -1,12 +1,15 @@
 body {
-  background-image: url(2645e4d9a01c411e1d094ebdb0889189.png) 30 30 no-repeat;
+  background: url(2645e4d9a01c411e1d094ebdb0889189.png) 30px 30px no-repeat;
   font-family: "Quicksand", sans-serif;
   width: 100%;
   font-style: normal;
   color: #1F2041;
 }
 
-.colors {
+.colorsTypes {
+  padding: 145px 191px 145px 150px;
+  display: flex;
+  justify-content: space-between;
   padding: 145px 191px 145px 150px;
 }
 
@@ -25,6 +28,7 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 6px;
+  margin-right: 40px;
 }
 .color__shade_dark_shade100 {
   background: #1F2041;
@@ -64,9 +68,20 @@ body {
   font-size: 19px;
 }
 
+.type {
+  display: flex;
+}
+.type:not(:last-child) {
+  margin-bottom: 50px;
+}
+
 .type__name {
   font-family: "Montserrat", sans-serif;
+  margin-right: 30px;
   color: rgba(31, 32, 65, 0.25);
+  width: 37px;
+  text-align: right;
+  text-transform: uppercase;
 }
 .type__name_h1 {
   font-size: 24px;
@@ -83,10 +98,12 @@ body {
 .type__name_body {
   font-size: 14px;
   line-height: 24px;
+  text-transform: capitalize;
 }
 
 .type__description {
   font-weight: bold;
+  max-width: 336px;
 }
 .type__description_h1 {
   font-weight: bold;
@@ -101,12 +118,14 @@ body {
 .type__description_h3 {
   font-weight: bold;
   font-size: 12px;
+  font-family: "Montserrat";
   line-height: 15px;
   text-transform: uppercase;
 }
 .type__description_body {
   font-weight: bold;
   font-size: 14px;
+  font-family: "Montserrat";
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
 }

@@ -155,6 +155,19 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./img/logo.png":
+/*!**********************!*\
+  !*** ./img/logo.png ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "2645e4d9a01c411e1d094ebdb0889189.png");
+
+/***/ }),
+
 /***/ "./js/index.js":
 /*!*********************!*\
   !*** ./js/index.js ***!
@@ -166,6 +179,8 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ "./scss/style.scss");
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/logo.png */ "./img/logo.png");
+
 
 
 /***/ }),
