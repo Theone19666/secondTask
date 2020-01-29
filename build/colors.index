@@ -155,6 +155,71 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./fonts/Montserrat/Montserrat-Bold.ttf":
+/*!**********************************************!*\
+  !*** ./fonts/Montserrat/Montserrat-Bold.ttf ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ade91f473255991f410f61857696434b.ttf");
+
+/***/ }),
+
+/***/ "./fonts/Montserrat/Montserrat-Medium.ttf":
+/*!************************************************!*\
+  !*** ./fonts/Montserrat/Montserrat-Medium.ttf ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "c8b6e083af3f94009801989c3739425e.ttf");
+
+/***/ }),
+
+/***/ "./fonts/Montserrat/Montserrat-Regular.ttf":
+/*!*************************************************!*\
+  !*** ./fonts/Montserrat/Montserrat-Regular.ttf ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ee6539921d713482b8ccd4d0d23961bb.ttf");
+
+/***/ }),
+
+/***/ "./fonts/Quicksand/Quicksand-Bold.ttf":
+/*!********************************************!*\
+  !*** ./fonts/Quicksand/Quicksand-Bold.ttf ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "410a26014ce7e25824ae18349d2c92d3.ttf");
+
+/***/ }),
+
+/***/ "./fonts/Quicksand/Quicksand-Regular.ttf":
+/*!***********************************************!*\
+  !*** ./fonts/Quicksand/Quicksand-Regular.ttf ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "9a891411c3856f2db214f3507349a424.ttf");
+
+/***/ }),
+
 /***/ "./img/logo.png":
 /*!**********************!*\
   !*** ./img/logo.png ***!
@@ -180,6 +245,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ "./scss/style.scss");
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/logo.png */ "./img/logo.png");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../fonts/Montserrat/Montserrat-Bold.ttf */ "./fonts/Montserrat/Montserrat-Bold.ttf");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../fonts/Montserrat/Montserrat-Regular.ttf */ "./fonts/Montserrat/Montserrat-Regular.ttf");
+/* harmony import */ var _fonts_Quicksand_Quicksand_Bold_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../fonts/Quicksand/Quicksand-Bold.ttf */ "./fonts/Quicksand/Quicksand-Bold.ttf");
+/* harmony import */ var _fonts_Quicksand_Quicksand_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../fonts/Quicksand/Quicksand-Regular.ttf */ "./fonts/Quicksand/Quicksand-Regular.ttf");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Medium_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../fonts/Montserrat/Montserrat-Medium.ttf */ "./fonts/Montserrat/Montserrat-Medium.ttf");
+
+
+
+
+
 
 
 

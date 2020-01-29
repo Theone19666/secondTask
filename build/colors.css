@@ -1,6 +1,32 @@
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(ade91f473255991f410f61857696434b.ttf);
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(ee6539921d713482b8ccd4d0d23961bb.ttf);
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url(c8b6e083af3f94009801989c3739425e.ttf);
+}
+@font-face {
+  font-family: "Quicksand Bold";
+  src: url(410a26014ce7e25824ae18349d2c92d3.ttf);
+}
+@font-face {
+  font-family: "Quicksand Regular";
+  src: url(9a891411c3856f2db214f3507349a424.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background: url(2645e4d9a01c411e1d094ebdb0889189.png) 30px 30px no-repeat;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand Regular", sans-serif;
   width: 100%;
   font-style: normal;
   color: #1F2041;
@@ -10,15 +36,17 @@ body {
   padding: 145px 191px 145px 150px;
   display: flex;
   justify-content: space-between;
-  padding: 145px 191px 145px 150px;
+  flex-direction: row;
+}
+
+.colors {
+  max-width: 270px;
 }
 
 .color {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
-  max-width: 270px;
 }
 .color:not(:last-child) {
   margin-bottom: 20px;
@@ -59,8 +87,8 @@ body {
 }
 
 .color__caption {
-  font-weight: bold;
   font-size: 19px;
+  font-family: "Quicksand Bold";
   line-height: 29px;
 }
 
@@ -76,7 +104,7 @@ body {
 }
 
 .type__name {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Regular", sans-serif;
   margin-right: 30px;
   color: rgba(31, 32, 65, 0.25);
   width: 37px;
@@ -103,6 +131,7 @@ body {
 
 .type__description {
   font-weight: bold;
+  font-family: "Quicksand Bold";
   max-width: 336px;
 }
 .type__description_h1 {
@@ -118,16 +147,42 @@ body {
 .type__description_h3 {
   font-weight: bold;
   font-size: 12px;
-  font-family: "Montserrat";
+  font-family: "Montserrat Bold";
   line-height: 15px;
   text-transform: uppercase;
 }
 .type__description_body {
-  font-weight: bold;
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat Regular";
+  font-weight: 100;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
+  max-width: 301px;
+}
+
+@media screen and (max-width: 1100px) {
+  .colorsTypes {
+    padding: 145px 30px;
+  }
+
+  .colors, .types {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .colorsTypes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colors {
+    margin-bottom: 50px;
+  }
+
+  .colors, .types {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=colors.css.map*/

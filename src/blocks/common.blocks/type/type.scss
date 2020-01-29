@@ -6,7 +6,7 @@
 }
 .type__name {
     font: {
-        family: 'Montserrat', sans-serif;
+        family: 'Montserrat Regular', sans-serif;
     }
     margin-right: 30px;
     color: rgba(31, 32, 65, 0.25);
@@ -32,7 +32,10 @@
     }
 }
 .type__description {
-    font-weight: bold;
+    font: {
+        weight: bold;
+        family: 'Quicksand Bold';
+    }
     max-width: 336px;
     &_h1 {
         font: {
@@ -52,18 +55,19 @@
         font: {
             weight: bold;
             size: 12px;
-            family: 'Montserrat';
+            family: 'Montserrat Bold';
         }
         line-height: 15px;
         text-transform: uppercase;
     }
     &_body {
         font: {
-            weight: bold;
             size: 14px;
-            family: 'Montserrat';
+            family: 'Montserrat Regular';
+            weight: 100;
         }
         line-height: 24px;
         color: rgba(31, 32, 65, 0.75);
+        max-width: 301px;
     }
 }

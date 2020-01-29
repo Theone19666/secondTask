@@ -1,9 +1,10 @@
+.colors {
+    max-width: 270px;
+}
 .color {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 270px;
     &:not(:last-child) {
         margin-bottom: 20px;
     }
@@ -42,8 +43,8 @@
 }
 .color__caption {
     font: {
-        weight: bold;
         size: 19px;
+        family: 'Quicksand Bold';
     }
     line-height: 29px;
 }

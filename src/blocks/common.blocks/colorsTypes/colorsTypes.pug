@@ -1,12 +1,12 @@
 include ../color/color
 include ../type/type
--var classes = [{'class':'dark_shade100', 'val': '#1F2041',text: 'Dark Shade 100%'},{'class':'dark_shade75', 'val': '#1F2041',text: 'Dark Shade 100%'},{'class':'dark_shade50', 'val': '#1F2041',text: 'Dark Shade 50%'},{'class':'dark_shade25', 'val': '#1F2041',text: 'Dark Shade 25%'},{'class':'dark_shade5', 'val': '#1F2041',text: 'Dark Shade 5%'},{'class':'purple', 'val': '#BC9CFF',text: 'Purple'},{'class':'green', 'val': '#6FCF97',text: 'Green'}];
+-var classes = [{'class':'dark_shade100', 'val': '#1F2041',text: 'Dark Shade 100%'},{'class':'dark_shade75', 'val': '#1F2041',text: 'Dark Shade 75%'},{'class':'dark_shade50', 'val': '#1F2041',text: 'Dark Shade 50%'},{'class':'dark_shade25', 'val': '#1F2041',text: 'Dark Shade 25%'},{'class':'dark_shade5', 'val': '#1F2041',text: 'Dark Shade 5%'},{'class':'purple', 'val': '#BC9CFF',text: 'Purple'},{'class':'green', 'val': '#6FCF97',text: 'Green'}];
 div.colorsTypes
     div.colors
         each item in classes
             +color(item.class, item.val, item.text)
 
-    -var types = [{'type': 'h1', 'description': 'This one is the sub-section or widget tutle'},{'type': 'h2', 'description': 'Next one is the item title inside widgets'},{'type': 'h3', 'description': 'This is a label or CTA text'},{'type': 'body', 'description': 'This is the body text which is used for most of design, like paragraphs, lists, etc.'}]
+    -var types = [{'type': 'h1', 'description': 'This one is the sub-section or widget title'},{'type': 'h2', 'description': 'Next one is the item title inside widgets'},{'type': 'h3', 'description': 'This is a label or CTA text'},{'type': 'body', 'description': 'This is the body text which is used for most of design, like paragraphs, lists, etc.'}]
     div.types
         each item in types
             +type(item.type, item.description)
