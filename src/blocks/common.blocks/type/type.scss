@@ -1,3 +1,16 @@
+.types {
+    @media screen and (max-width: 1100px) { 
+        & {
+            max-width: 50%;
+        }
+    }
+    @media screen and (max-width: 630px) {  
+        & {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
 .type {
     display: flex;
     &:not(:last-child) {
@@ -9,24 +22,24 @@
         family: 'Montserrat Regular', sans-serif;
     }
     margin-right: 30px;
-    color: rgba(31, 32, 65, 0.25);
+    color: $darkShade25;
     width: 37px;
     text-align: right;
     text-transform: uppercase;
     &_h1 {
-        font-size: 24px;
+        font-size: $h1FontSize;
         line-height: 29px;
     }
     &_h2 {
-        font-size: 19px;
+        font-size: $h2FontSize;
         line-height: 23px;
     }
     &_h3 {
-        font-size: 12px;
+        font-size: $h3FontSize;
         line-height: 15px;
     }
     &_body {
-        font-size: 14px;
+        font-size: $bodyFontSize;
         line-height: 24px;
         text-transform: capitalize;
     }
@@ -40,21 +53,21 @@
     &_h1 {
         font: {
             weight: bold;
-            size: 24px;
+            size: $h1FontSize;
         }
         line-height: 30px;
     }
     &_h2 {
         font: {
             weight: bold;
-            size: 19px;
+            size: $h2FontSize;
         }
         line-height: 24px;
     }
     &_h3 {
         font: {
             weight: bold;
-            size: 12px;
+            size: $h3FontSize;
             family: 'Montserrat Bold';
         }
         line-height: 15px;
@@ -62,12 +75,12 @@
     }
     &_body {
         font: {
-            size: 14px;
+            size: $bodyFontSize;
             family: 'Montserrat Regular';
             weight: 100;
         }
         line-height: 24px;
-        color: rgba(31, 32, 65, 0.75);
+        color: $darkShade75;
         max-width: 301px;
     }
 }

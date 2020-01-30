@@ -1,5 +1,17 @@
 .colors {
     max-width: 270px;
+    @media screen and (max-width: 1100px) { 
+        & {
+            max-width: 50%;
+        }
+    }
+    @media screen and (max-width: 630px) {  
+        & {
+            margin-bottom: 50px;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
 }
 .color {
     display: flex;
@@ -15,25 +27,25 @@
     border-radius: 6px;
     margin-right: 40px;
     &_dark_shade100 {
-        background: #1F2041;
+        background: $darkShade100;
     }
     &_dark_shade75 {
-        background: rgba(31, 32, 65, 0.75);
+        background: $darkShade75;
     }
     &_dark_shade50 {
-        background: rgba(31, 32, 65, 0.5);
+        background: $darkShade50;
     }
     &_dark_shade25 {
-        background: rgba(31, 32, 65, 0.25);
+        background: $darkShade25;
     }
     &_dark_shade5 {
-        background: rgba(31, 32, 65, 0.05);
+        background: $darkShade5
     }
     &_purple {
-        background: #BC9CFF;
+        background: $purpe;
     }
     &_green {
-        background: #6FCF97;
+        background: $green;
     }
 }
 .color__text {
