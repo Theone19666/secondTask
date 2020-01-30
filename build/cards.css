@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(ade91f473255991f410f61857696434b.ttf);
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(ee6539921d713482b8ccd4d0d23961bb.ttf);
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url(c8b6e083af3f94009801989c3739425e.ttf);
+}
+@font-face {
+  font-family: "Quicksand Bold";
+  src: url(410a26014ce7e25824ae18349d2c92d3.ttf);
+}
+@font-face {
+  font-family: "Quicksand Regular";
+  src: url(9a891411c3856f2db214f3507349a424.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(2645e4d9a01c411e1d094ebdb0889189.png) 30px 30px no-repeat;
+  font-family: "Quicksand Regular", sans-serif;
+  width: 100%;
+  font-style: normal;
+  color: #1F2041;
+}
+
+.body__grey {
+  background-color: #E5E5E5;
+}
+
+/*# sourceMappingURL=cards.css.map*/

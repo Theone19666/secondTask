@@ -148,7 +148,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push([0,"vendors~colors"]);
+/******/ 	deferredModules.push([0,"vendors~cards~colors"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -233,23 +233,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./js/index.js":
-/*!*********************!*\
-  !*** ./js/index.js ***!
-  \*********************/
+/***/ "./js/colors/main.js":
+/*!***************************!*\
+  !*** ./js/colors/main.js ***!
+  \***************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ "./scss/style.scss");
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/logo.png */ "./img/logo.png");
-/* harmony import */ var _fonts_Montserrat_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../fonts/Montserrat/Montserrat-Bold.ttf */ "./fonts/Montserrat/Montserrat-Bold.ttf");
-/* harmony import */ var _fonts_Montserrat_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../fonts/Montserrat/Montserrat-Regular.ttf */ "./fonts/Montserrat/Montserrat-Regular.ttf");
-/* harmony import */ var _fonts_Quicksand_Quicksand_Bold_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../fonts/Quicksand/Quicksand-Bold.ttf */ "./fonts/Quicksand/Quicksand-Bold.ttf");
-/* harmony import */ var _fonts_Quicksand_Quicksand_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../fonts/Quicksand/Quicksand-Regular.ttf */ "./fonts/Quicksand/Quicksand-Regular.ttf");
-/* harmony import */ var _fonts_Montserrat_Montserrat_Medium_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../fonts/Montserrat/Montserrat-Medium.ttf */ "./fonts/Montserrat/Montserrat-Medium.ttf");
+/* harmony import */ var _scss_colors_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../scss/colors.scss */ "./scss/colors.scss");
+/* harmony import */ var _scss_colors_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_colors_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/logo.png */ "./img/logo.png");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Bold.ttf */ "./fonts/Montserrat/Montserrat-Bold.ttf");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Regular.ttf */ "./fonts/Montserrat/Montserrat-Regular.ttf");
+/* harmony import */ var _fonts_Quicksand_Quicksand_Bold_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../fonts/Quicksand/Quicksand-Bold.ttf */ "./fonts/Quicksand/Quicksand-Bold.ttf");
+/* harmony import */ var _fonts_Quicksand_Quicksand_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../fonts/Quicksand/Quicksand-Regular.ttf */ "./fonts/Quicksand/Quicksand-Regular.ttf");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Medium_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Medium.ttf */ "./fonts/Montserrat/Montserrat-Medium.ttf");
 
 
 
@@ -260,10 +260,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./scss/style.scss":
-/*!*************************!*\
-  !*** ./scss/style.scss ***!
-  \*************************/
+/***/ "./scss/colors.scss":
+/*!**************************!*\
+  !*** ./scss/colors.scss ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -274,16 +274,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!*******************************************!*\
-  !*** multi @babel/polyfill ./js/index.js ***!
-  \*******************************************/
+/*!*************************************************!*\
+  !*** multi @babel/polyfill ./js/colors/main.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! @babel/polyfill */"../node_modules/@babel/polyfill/lib/index.js");
-module.exports = __webpack_require__(/*! ./js/index.js */"./js/index.js");
+module.exports = __webpack_require__(/*! ./js/colors/main.js */"./js/colors/main.js");
 
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=colors.bundle.js.map

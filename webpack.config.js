@@ -55,6 +55,15 @@ const plugins = () => [
       collapseWhitespace: isProd,
     },
   }),
+  new HtmlWebpackPlugin({
+    filename: '../build/pages/cards/cards.html',
+    chunks: ['cards'],
+    template: './pages/cards.pug',
+    minify: {
+      // минификация в режима прода
+      collapseWhitespace: isProd,
+    },
+  }),
   // плагин для очистки ненужных файлов
   new CleanWebpackPlugin(),
   new MiniCssExtractPlugin({
@@ -92,11 +101,12 @@ module.exports = {
   mode: 'development',
   // входные точки
   entry: {
-    colors: ['@babel/polyfill', './js/index.js'],
+    colors: ['@babel/polyfill', './js/colors/main.js'],
+    cards: ['@babel/polyfill', './js/cards/main.js'],
   },
   // выходные точки
   output: {
-    filename: filename('index'),
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'build'),
   },
   resolve: {

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~colors"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendors~cards~colors"],{
 
 /***/ "../node_modules/@babel/polyfill/lib/index.js":
 /*!****************************************************!*\
@@ -10162,3 +10162,4 @@ module.exports = __webpack_require__(/*! ../modules/_core */ "../node_modules/co
 /***/ })
 
 }]);
+//# sourceMappingURL=vendors~cards~colors.bundle.js.map
