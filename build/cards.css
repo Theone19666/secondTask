@@ -25,15 +25,23 @@
 }
 
 body {
-  background: url(2645e4d9a01c411e1d094ebdb0889189.png) 30px 30px no-repeat;
-  font-family: "Quicksand Regular", sans-serif;
   width: 100%;
+  color: rgba(31, 32, 65, 0.75);
+  line-height: 24px;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 14px;
   font-style: normal;
-  color: #1F2041;
+  font-weight: 100;
 }
 
-.body__grey {
+.body_grey {
   background-color: #E5E5E5;
+}
+
+.body_logo {
+  background-image: url(2645e4d9a01c411e1d094ebdb0889189.png);
+  background-position: 30px 30px;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=cards.css.map*/

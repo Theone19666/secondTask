@@ -1,5 +1,9 @@
 @import 'variables.scss';
+@import 'mixins.scss';
 @import 'general.scss';
+@import '../blocks/common.blocks/text blocks/h1/h1.scss';
+@import '../blocks/common.blocks/text blocks/h2/h2.scss';
+@import '../blocks/common.blocks/text blocks/h3/h3.scss';
 @import '../blocks/common.blocks/colorsTypes/colorsTypes.scss';
 @import '../blocks/common.blocks/color/color.scss';
 @import '../blocks/common.blocks/type/type.scss';

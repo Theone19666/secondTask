@@ -24,12 +24,21 @@
     margin: 0;
 }
 body {
-    background: url(../img/logo.png) 30px 30px no-repeat;
-    font-family: 'Quicksand Regular', sans-serif;
     width: 100%;
-    font-style: normal;
-    color: $darkShade100;
+    color: $darkShade75;
+    line-height: 24px;
+    font: {
+        family: 'Montserrat Regular', sans-serif;
+        size: $bodyFontSize;
+        style: normal;
+        weight: 100;
+    }
 }
-.body__grey {
+.body_grey {
     background-color: #E5E5E5;
+}
+.body_logo {
+    background-image: url(../img/logo.png);
+    background-position:  30px 30px;
+    background-repeat: no-repeat;
 }

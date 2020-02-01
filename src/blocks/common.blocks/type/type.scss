@@ -18,9 +18,6 @@
     }
 }
 .type__name {
-    font: {
-        family: 'Montserrat Regular', sans-serif;
-    }
     margin-right: 30px;
     color: $darkShade25;
     width: 37px;
@@ -39,48 +36,24 @@
         line-height: 15px;
     }
     &_body {
-        font-size: $bodyFontSize;
-        line-height: 24px;
         text-transform: capitalize;
     }
 }
 .type__description {
-    font: {
-        weight: bold;
-        family: 'Quicksand Bold';
-    }
     max-width: 336px;
     &_h1 {
-        font: {
-            weight: bold;
-            size: $h1FontSize;
-        }
-        line-height: 30px;
+        max-width: 336px;
     }
     &_h2 {
-        font: {
-            weight: bold;
-            size: $h2FontSize;
-        }
-        line-height: 24px;
+        max-width: 282px;
     }
     &_h3 {
-        font: {
-            weight: bold;
-            size: $h3FontSize;
-            family: 'Montserrat Bold';
-        }
-        line-height: 15px;
-        text-transform: uppercase;
+        max-width: 186px;
     }
     &_body {
         font: {
-            size: $bodyFontSize;
-            family: 'Montserrat Regular';
             weight: 100;
         }
-        line-height: 24px;
-        color: $darkShade75;
         max-width: 301px;
     }
 }

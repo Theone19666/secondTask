@@ -1,0 +1,24 @@
+@mixin h1 {
+    font: {
+        weight: bold;
+        size: $h1FontSize;
+        family: 'Quicksand Bold';
+    }
+    line-height: 30px;
+}
+@mixin h2 {
+    font: {
+        weight: bold;
+        size: $h2FontSize;
+        family: 'Quicksand Bold';
+    }
+}
+@mixin h3 {
+    font: {
+        weight: bold;
+        size: $h3FontSize;
+        family: 'Montserrat Bold';
+    }
+    line-height: 15px;
+    text-transform: uppercase;
+}

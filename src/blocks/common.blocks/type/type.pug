@@ -1,4 +1,14 @@
-mixin  type(type, description)
+include ../text blocks/h1/h1
+include ../text blocks/h2/h2
+include ../text blocks/h3/h3
+mixin type(type, description)
     div.type
         div(class='type__name type__name_'+type)= type
-        div.type__description(class='type__description_'+type)= description
+        if (type === 'h1')
+            +h1('type__description_'+type, description)
+        else if (type === 'h2')
+            +h2('type__description_'+type, description)    
+        else if (type === 'h3')
+            +h3('type__description_'+type, description)   
+        else if (type === 'body')
+            div(class='type__description_'+type)= description
