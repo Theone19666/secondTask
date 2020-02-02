@@ -1,0 +1,5 @@
+include ../text blocks/h3/h3
+mixin button(textContent, className = '')
+    button(class='button '+ className)
+        +h3('', textContent)
+    block

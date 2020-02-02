@@ -39,6 +39,8 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "flatpickr": "^4.6.3",
+    "normalize-scss": "^7.0.1",
     "normalize.css": "^8.0.1"
   }
 }

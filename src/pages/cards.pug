@@ -1,5 +1,9 @@
 extends ../pug/grey_layout.pug
-
+include ../blocks/common.blocks/button/button
+include ../blocks/common.blocks/text blocks/h1/h1
+include ../blocks/common.blocks/text blocks/h3/h3
+include ../blocks/common.blocks/dateDropdown/dateDropdown
+include ../blocks/common.blocks/dropdown/dropdown
 block head 
     // link(rel='stylesheet', href='../../style.css')
 
@@ -8,6 +12,17 @@ block meta
     meta(name='description', content='Cards page')
 
 block content
-    <div class="card">
-        
-    </div>
+    .cards
+        <div class="card card_reservetion card_unlegible_border card_legible_shadow">
+            +h1('card__caption', 'Найдём номера под ваши пожелания')
+            .card__dateWrapper
+                .card__dateElement
+                    +h3('card__subtitle', 'прибытие')
+                    +dateDropdown('ДД.ММ.ГГГ', 'card__date')
+                .card__dateElement
+                    +h3('card__subtitle', 'выезд')
+                    +dateDropdown('ДД.ММ.ГГГ', 'card__date')
+            +h3('card__subtitle', 'гости')
+            +dropdown('Сколько гостей', 'card__dropdown')
+            +button('подобрать номер', 'button_next')
+        </div>

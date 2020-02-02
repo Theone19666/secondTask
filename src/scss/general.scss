@@ -22,6 +22,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: none;
 }
 body {
     width: 100%;
@@ -38,7 +39,7 @@ body {
     background-color: #E5E5E5;
 }
 .body_logo {
-    background-image: url(../img/logo.png);
+    background-image: url(../img/general/logo.png);
     background-position:  30px 30px;
     background-repeat: no-repeat;
 }

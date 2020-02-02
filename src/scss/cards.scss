@@ -1,0 +1,12 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'general.scss';
+@import '../blocks/common.blocks/text blocks/h1/h1.scss';
+@import '../blocks/common.blocks/text blocks/h2/h2.scss';
+@import '../blocks/common.blocks/text blocks/h3/h3.scss';
+@import '../blocks/common.blocks/button/button.scss';
+@import '../blocks/common.blocks/dateDropdown/dateDropdown.scss';
+@import '../blocks/common.blocks/dropdown/dropdown.scss';
+@import '../blocks/common.blocks/card/card.scss';

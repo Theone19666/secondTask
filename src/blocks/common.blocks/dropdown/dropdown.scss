@@ -1,0 +1,14 @@
+.dropdown {
+    border: 1px solid $darkShade25;
+    border-radius: $borderRadius;
+    height: 44px;
+    
+    line-height: 18px;
+    padding: 11.56px 0 13.44px 15px;
+    background: {
+        image: url(../img/general/expand_more.png);
+        position: 286px center;
+        size: auto;
+        repeat: no-repeat;
+    };
+}

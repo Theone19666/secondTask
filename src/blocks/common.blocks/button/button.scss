@@ -1,0 +1,24 @@
+.button {
+    padding: 14px 22px 15px 18px;
+    border-radius: 22px;
+    color: white;
+    background: $violetGradient;
+    width: 100%;
+    position: relative;
+    &_next {
+        &:after {
+            content: '';
+            background: {
+                image: url(../img/general/arrow_forward.png);
+                position: center;
+                repeat: no-repeat;
+                size: auto;
+            };
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 44px;
+            height: 44px;
+        }
+    }
+}

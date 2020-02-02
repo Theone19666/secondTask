@@ -8,7 +8,24 @@
     <!-- link(rel='stylesheet', href='../../style.css')-->
   <link href="../../cards.css" rel="stylesheet"></head>
   <body class="body_grey body_logo">
-    <noscript>Отключён Javascript. Это печально. </noscript><div class="card">
-</div>
+    <noscript>Отключён Javascript. Это печально. </noscript>
+    <div class="cards"><div class="card card_reservetion card_unlegible_border card_legible_shadow">
+      <h1 class="h1 card__caption">Найдём номера под ваши пожелания</h1>
+      <div class="card__dateWrapper">
+        <div class="card__dateElement">
+          <h3 class="h3 card__subtitle">прибытие</h3>
+          <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+        </div>
+        <div class="card__dateElement">
+          <h3 class="h3 card__subtitle">выезд</h3>
+          <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+        </div>
+      </div>
+      <h3 class="h3 card__subtitle">гости</h3>
+      <input class="dropdown card__dropdown" type="text" placeholder="Сколько гостей" value="">
+      <button class="button button_next">
+        <h3 class="h3">подобрать номер</h3>
+      </button></div>
+    </div>
   <script type="text/javascript" src="../../cards.bundle.js"></script></body>
 </html>

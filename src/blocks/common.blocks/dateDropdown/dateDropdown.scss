@@ -1,0 +1,15 @@
+.dateDropdown {
+    border: 1px solid $darkShade25;
+    border-radius: $borderRadius;
+    width: 150px;
+    height: 44px;
+    padding: 11.56px 32px 8.44px 15px;
+    line-height: 18px;
+    position: relative;
+    background: {
+        image: url(../img/general/expand_more.png);
+        position: 119px center;
+        size: auto;
+        repeat: no-repeat;
+    };
+}
