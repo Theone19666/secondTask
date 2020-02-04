@@ -1,0 +1,21 @@
+extends ../pug/layout.pug
+include ../blocks/common.blocks/button/button
+include ../blocks/common.blocks/text blocks/h1/h1
+include ../blocks/common.blocks/text blocks/h2/h2
+include ../blocks/common.blocks/text blocks/h3/h3
+include ../blocks/common.blocks/dateDropdown/dateDropdown
+include ../blocks/common.blocks/dropdown/dropdown
+include ../blocks/common.blocks/textField/textField
+
+block head 
+    // link(rel='stylesheet', href='../../style.css')
+
+block meta
+    title Form elements
+    meta(name='description', content='Cards page')
+
+block content
+    .formElements
+        .formElements__article
+            +h3('formElements__name')
+        +textField('Email', 'formElements__input')

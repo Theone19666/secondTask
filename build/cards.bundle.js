@@ -148,7 +148,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push([1,"vendors~cards~colors","vendors~cards"]);
+/******/ 	deferredModules.push([1,"vendors~cards~colors~formElements","vendors~cards"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })

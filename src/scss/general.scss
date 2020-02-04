@@ -43,3 +43,15 @@ body {
     background-position:  30px 30px;
     background-repeat: no-repeat;
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $darkShade25;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $darkShade25;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: $darkShade25;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: $darkShade25;
+  }

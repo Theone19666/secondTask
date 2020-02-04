@@ -65,9 +65,9 @@ const plugins = () => [
     },
   }),
   new HtmlWebpackPlugin({
-    filename: '../build/pages/cards/formElemets.html',
-    chunks: ['cards'],
-    template: './pages/formElemets.pug',
+    filename: '../build/pages/formElements/formElements.html',
+    chunks: ['formElements'],
+    template: './pages/formElements.pug',
     minify: {
       // минификация в режима прода
       collapseWhitespace: isProd,
@@ -112,6 +112,7 @@ module.exports = {
   entry: {
     colors: ['@babel/polyfill', './js/colors/main.js'],
     cards: ['@babel/polyfill', './js/cards/main.js'],
+    formElements: ['@babel/polyfill', './js/form elements/main.js'],
   },
   // выходные точки
   output: {
