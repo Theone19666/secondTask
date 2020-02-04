@@ -1,4 +1,5 @@
 import '../../img/general/logo.png';
+import '../../img/general/info.png';
 import '../../img/general/expand_more.png';
 import '../../img/general/arrow_forward.png';
 import '../../fonts/Montserrat/Montserrat-Bold.ttf';

@@ -1,6 +1,7 @@
 extends ../pug/grey_layout.pug
 include ../blocks/common.blocks/button/button
 include ../blocks/common.blocks/text blocks/h1/h1
+include ../blocks/common.blocks/text blocks/h2/h2
 include ../blocks/common.blocks/text blocks/h3/h3
 include ../blocks/common.blocks/dateDropdown/dateDropdown
 include ../blocks/common.blocks/dropdown/dropdown
@@ -13,7 +14,7 @@ block meta
 
 block content
     .cards
-        <div class="card card_reservetion card_unlegible_border card_legible_shadow">
+        div(class="card card_reservetion card_unlegible_border card_legible_shadow card_search")
             +h1('card__caption', 'Найдём номера под ваши пожелания')
             .card__dateWrapper
                 .card__dateElement
@@ -25,4 +26,38 @@ block content
             +h3('card__subtitle', 'гости')
             +dropdown('Сколько гостей', 'card__dropdown')
             +button('подобрать номер', 'button_next')
-        </div>
+        div(class="card card_reservetion card_unlegible_border card_legible_shadow card_roomCost")
+            .card__roomInfo
+                .card__roomTypeInfo
+                    span №
+                    // span.card__roomNumber 888
+                    +h1('card__roomNumber', 888)
+                    span.card__roomType люкс
+                .card__roomCost
+                    span.card__roomCostValue 9 900&#8381;
+                    span.card__roomCostType в сутки
+            .card__dateWrapper
+                .card__dateElement
+                    +h3('card__subtitle', 'прибытие')
+                    +dateDropdown('ДД.ММ.ГГГ', 'card__date')
+                .card__dateElement
+                    +h3('card__subtitle', 'выезд')
+                    +dateDropdown('ДД.ММ.ГГГ', 'card__date')
+            +h3('card__subtitle', 'гости')
+            +dropdown('3 гостя', 'card__dropdown card__dropwdown_guests')
+            .card__service
+                .card__serviceName 9 900&#8381; x 4 суток
+                .card__serviceCost 39 960&#8381;
+            .card__service
+                .card__serviceName Сбор за услуги: скидка 2 179&#8381;
+                img(src='info.png')
+                .card__serviceCost 0&#8381;
+            .card__service.card__service_additions
+                .card__serviceName.card__serviceName_narrow Сбор за дополнительные услуги
+                img(src="info.png")
+                .card__serviceCost 300&#8381;
+            .card__finalCost
+                +h2('card__finalCostText', 'Итого')
+                .card__finalCostStub
+                +h2('card__finalCostValue', `38 081₽`)
+            +button('забронировать', 'button_next')

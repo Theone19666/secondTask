@@ -246,6 +246,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./img/general/info.png":
+/*!******************************!*\
+  !*** ./img/general/info.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "6531692ebcfc832dc0ad8d5faf5fe336.png");
+
+/***/ }),
+
 /***/ "./img/general/logo.png":
 /*!******************************!*\
   !*** ./img/general/logo.png ***!
@@ -269,15 +282,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_general_logo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../img/general/logo.png */ "./img/general/logo.png");
-/* harmony import */ var _img_general_expand_more_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/general/expand_more.png */ "./img/general/expand_more.png");
-/* harmony import */ var _img_general_arrow_forward_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/general/arrow_forward.png */ "./img/general/arrow_forward.png");
-/* harmony import */ var _fonts_Montserrat_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Bold.ttf */ "./fonts/Montserrat/Montserrat-Bold.ttf");
-/* harmony import */ var _fonts_Montserrat_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Regular.ttf */ "./fonts/Montserrat/Montserrat-Regular.ttf");
-/* harmony import */ var _fonts_Quicksand_Quicksand_Bold_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../fonts/Quicksand/Quicksand-Bold.ttf */ "./fonts/Quicksand/Quicksand-Bold.ttf");
-/* harmony import */ var _fonts_Quicksand_Quicksand_Regular_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../fonts/Quicksand/Quicksand-Regular.ttf */ "./fonts/Quicksand/Quicksand-Regular.ttf");
-/* harmony import */ var _fonts_Montserrat_Montserrat_Medium_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Medium.ttf */ "./fonts/Montserrat/Montserrat-Medium.ttf");
-/* harmony import */ var _scss_cards_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/cards.scss */ "./scss/cards.scss");
-/* harmony import */ var _scss_cards_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_scss_cards_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _img_general_info_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/general/info.png */ "./img/general/info.png");
+/* harmony import */ var _img_general_expand_more_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/general/expand_more.png */ "./img/general/expand_more.png");
+/* harmony import */ var _img_general_arrow_forward_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/general/arrow_forward.png */ "./img/general/arrow_forward.png");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Bold.ttf */ "./fonts/Montserrat/Montserrat-Bold.ttf");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Regular.ttf */ "./fonts/Montserrat/Montserrat-Regular.ttf");
+/* harmony import */ var _fonts_Quicksand_Quicksand_Bold_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../fonts/Quicksand/Quicksand-Bold.ttf */ "./fonts/Quicksand/Quicksand-Bold.ttf");
+/* harmony import */ var _fonts_Quicksand_Quicksand_Regular_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../fonts/Quicksand/Quicksand-Regular.ttf */ "./fonts/Quicksand/Quicksand-Regular.ttf");
+/* harmony import */ var _fonts_Montserrat_Montserrat_Medium_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../fonts/Montserrat/Montserrat-Medium.ttf */ "./fonts/Montserrat/Montserrat-Medium.ttf");
+/* harmony import */ var _scss_cards_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../scss/cards.scss */ "./scss/cards.scss");
+/* harmony import */ var _scss_cards_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_scss_cards_scss__WEBPACK_IMPORTED_MODULE_9__);
+
 
 
 

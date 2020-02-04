@@ -4,6 +4,7 @@
         family: 'Quicksand Bold', sans-serif;
     }
     line-height: 30px;
+    color: $darkShade100;
 }
 @mixin h2 {
     font: {
@@ -20,4 +21,14 @@
     }
     line-height: 15px;
     text-transform: uppercase;
+}
+@mixin displayFlexCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin displayFlexBaseline {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }

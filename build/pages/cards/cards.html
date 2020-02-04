@@ -9,23 +9,66 @@
   <link href="../../cards.css" rel="stylesheet"></head>
   <body class="body_grey body_logo">
     <noscript>Отключён Javascript. Это печально. </noscript>
-    <div class="cards"><div class="card card_reservetion card_unlegible_border card_legible_shadow">
-      <h1 class="h1 card__caption">Найдём номера под ваши пожелания</h1>
-      <div class="card__dateWrapper">
-        <div class="card__dateElement">
-          <h3 class="h3 card__subtitle">прибытие</h3>
-          <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+    <div class="cards">
+      <div class="card card_reservetion card_unlegible_border card_legible_shadow card_search">
+        <h1 class="h1 card__caption">Найдём номера под ваши пожелания</h1>
+        <div class="card__dateWrapper">
+          <div class="card__dateElement">
+            <h3 class="h3 card__subtitle">прибытие</h3>
+            <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+          </div>
+          <div class="card__dateElement">
+            <h3 class="h3 card__subtitle">выезд</h3>
+            <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+          </div>
         </div>
-        <div class="card__dateElement">
-          <h3 class="h3 card__subtitle">выезд</h3>
-          <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
-        </div>
+        <h3 class="h3 card__subtitle">гости</h3>
+        <input class="dropdown card__dropdown" type="text" placeholder="Сколько гостей" value="">
+        <button class="button button_next">
+          <h3 class="h3">подобрать номер</h3>
+        </button>
       </div>
-      <h3 class="h3 card__subtitle">гости</h3>
-      <input class="dropdown card__dropdown" type="text" placeholder="Сколько гостей" value="">
-      <button class="button button_next">
-        <h3 class="h3">подобрать номер</h3>
-      </button></div>
+      <div class="card card_reservetion card_unlegible_border card_legible_shadow card_roomCost">
+        <div class="card__roomInfo">
+          <div class="card__roomTypeInfo"><span>№</span>
+            <!-- span.card__roomNumber 888-->
+            <h1 class="h1 card__roomNumber">888</h1><span class="card__roomType">люкс</span>
+          </div>
+          <div class="card__roomCost"><span class="card__roomCostValue">9 900&#8381;</span><span class="card__roomCostType">в сутки</span></div>
+        </div>
+        <div class="card__dateWrapper">
+          <div class="card__dateElement">
+            <h3 class="h3 card__subtitle">прибытие</h3>
+            <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+          </div>
+          <div class="card__dateElement">
+            <h3 class="h3 card__subtitle">выезд</h3>
+            <input class="dateDropdown card__date" type="text" placeholder="ДД.ММ.ГГГ">
+          </div>
+        </div>
+        <h3 class="h3 card__subtitle">гости</h3>
+        <input class="dropdown card__dropdown card__dropwdown_guests" type="text" placeholder="3 гостя" value="">
+        <div class="card__service">
+          <div class="card__serviceName">9 900&#8381; x 4 суток</div>
+          <div class="card__serviceCost">39 960&#8381;</div>
+        </div>
+        <div class="card__service">
+          <div class="card__serviceName">Сбор за услуги: скидка 2 179&#8381;</div><img src="info.png">
+          <div class="card__serviceCost">0&#8381;</div>
+        </div>
+        <div class="card__service card__service_additions">
+          <div class="card__serviceName card__serviceName_narrow">Сбор за дополнительные услуги</div><img src="info.png">
+          <div class="card__serviceCost">300&#8381;</div>
+        </div>
+        <div class="card__finalCost">
+          <h2 class="h2 card__finalCostText">Итого</h2>
+          <div class="card__finalCostStub"></div>
+          <h2 class="h2 card__finalCostValue">38 081₽</h2>
+        </div>
+        <button class="button button_next">
+          <h3 class="h3">забронировать</h3>
+        </button>
+      </div>
     </div>
   <script type="text/javascript" src="../../cards.bundle.js"></script></body>
 </html>

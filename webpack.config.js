@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 
-const isDev = 'true';// process.env.NODE_ENV === 'development';
+const isDev = true; // process.env.NODE_ENV === 'development';
 const isProd = !isDev;
 console.log('IS DEV', isDev);
 
@@ -59,6 +59,15 @@ const plugins = () => [
     filename: '../build/pages/cards/cards.html',
     chunks: ['cards'],
     template: './pages/cards.pug',
+    minify: {
+      // минификация в режима прода
+      collapseWhitespace: isProd,
+    },
+  }),
+  new HtmlWebpackPlugin({
+    filename: '../build/pages/cards/formElemets.html',
+    chunks: ['cards'],
+    template: './pages/formElemets.pug',
     minify: {
       // минификация в режима прода
       collapseWhitespace: isProd,

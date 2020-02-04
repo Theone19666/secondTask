@@ -3,7 +3,6 @@
     border-radius: 4px;
     padding: 40px 30px 30px;
     &__caption {
-        color: $darkShade100;
         margin-bottom: 20px;
         width: 246px;
     }
@@ -19,6 +18,64 @@
         margin-bottom: 31px;
         width: 100%;
     }
+    &__dropwdown_guests {
+        margin-bottom: 18px;
+    }
+    &__roomInfo {
+        @include displayFlexBaseline;
+        margin-bottom: 20px;
+    }
+    &__roomTypeInfo {
+        font-family: 'Quicksand Bold', sans-serif;
+        @include displayFlexBaseline;
+    }
+    &__roomNumber {
+        line-height: 17px;
+        color: $darkShade100;
+        margin: 0 5px;
+    }
+    &__roomType { 
+        color: $purpe;
+        line-height: 15px;
+        text-transform: uppercase;
+        font-family: 'Montserrat Bold', sans-serif;
+    }
+    &__roomCost {
+        line-height: 18px;
+        color: $darkShade50;
+    }
+    &__roomCostValue {
+        margin-right: 2px;
+        font-family: 'Montserrat Bold', sans-serif;
+    }
+    &__roomCostType {
+        font-size: 12px;
+    }
+    &__service {
+        @include displayFlexBaseline;
+    }
+    &__service{
+        margin-bottom: 10px;
+    }
+    &__service_additions {
+        margin-bottom: 30px;
+    }
+    &__serviceName_narrow {
+        width: 214px;
+        line-height: 18px;
+    }
+    &__finalCost {
+        @include displayFlexBaseline;
+        margin-bottom: 20px;
+    }
+    &__finalCostStub {
+        width: 58%;
+        border-bottom: 1px dashed $darkShade25;
+        margin: 0 5px;
+    }
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
     &_legible_border {
         border: 1px solid $darkShade25;
     }
@@ -31,6 +88,9 @@
     &_unlegible_shadow {
         box-shadow: 0px 10px 20px $darkShade5;
     }
+    &_search {
+        height: 374px;
+    }
     &_calendar {
         padding: 20px;
     }
@@ -40,9 +100,14 @@
     &_reservetion {
         width: 380px;
     }
+    &_roomCost {
+        padding: 46px 30px 30px;
+    }
 }
 .cards {
     padding: 150px 140px 140px 140px;
+    width: 100%;
+    display: flex;
     @media screen and (max-width: 1100px){
         & {
             padding: 145px 30px;
